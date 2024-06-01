@@ -1,0 +1,61 @@
+:root {
+    --background-gradient: linear-gradient(to right, #ff7e5f, #feb47b);
+    --text-color: #ffffff;
+    --label-color: #ffddc1;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: var(--background-gradient);
+    color: var(--text-color);
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: var(--label-color);
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.time-section {
+    text-align: center;
+}
+
+.time {
+    font-size: 3em;
+    font-weight: 700;
+    display: block;
+}
+
+.label {
+    font-size: 1.2em;
+    color: var(--label-color);
+}
+
+#expired {
+    font-size: 2em;
+    margin-top: 20px;
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
